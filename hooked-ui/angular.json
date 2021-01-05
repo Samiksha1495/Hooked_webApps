@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hooked-ui"
+    }
+  },
+  "defaultProject": "hooked-ui",
+  "cli": {
+    "analytics": "55cf1a5c-fedc-4208-b0d2-4894ccc067c1"
+  }
 }
