@@ -1,15 +1,110 @@
-<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+      <a class="navbar-brand hooked-font" href="#">
+        <img src="../assets/logo.png" alt="" width="35" height="35" class="d-inline-block">
+        Hooked</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Socials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+
+          <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            DropDown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">x</a></li>
+            <li><a class="dropdown-item" href="#">y</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">z</a></li>
+          </ul>
+        </li> -->
+
+          <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+
+        </ul>
+        <form class="d-flex search-box">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search </button>
+        </form>
+      </div>
+  </div>
+</nav>
+
+<div class="text-right">
+  <button type="button" class="btn btn-secondary btn-lg btnprop">Join Our Community</button>
+</div>
+
+<!-- <div fxFlexFill class="main-div">
   <mat-card fxFlex="25">
-    <mat-toolbar color="primary">Login Page</mat-toolbar>
+    <mat-toolbar color="primary">Let's Get You Started</mat-toolbar>
     <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
       <mat-form-field>
         <input matInput placeholder="Username">
       </mat-form-field>
-    
+
       <mat-form-field>
         <input matInput type="Password" placeholder="Password">
       </mat-form-field>
       <button mat-raised-button type="submit">Login</button>
     </form>
   </mat-card>
+</div> -->
+
+<div fxFlexFill class="main-div">
+  <mat-card fxFlex="35">
+    <mat-toolbar color="primary">Let's Get You Started</mat-toolbar>
+    <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+      <mat-tab-group>
+        <mat-tab label="Login">
+          <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput placeholder="Email" value="">
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="Password">
+          </mat-form-field>
+          <button class="mat-button" mat-button color="primary">Login</button>
+        </mat-tab>
+
+        <mat-tab label="Register"> 
+          <mat-form-field class="example-full-width">
+            <mat-label>Name</mat-label>
+            <input type="Name" matInput placeholder="Name" value="">
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput placeholder="Email" value="">
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="Password">
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <mat-label>Confirm Password</mat-label>
+            <input type="password" matInput placeholder="Password">
+          </mat-form-field>
+          <button class="mat-button" mat-button color="primary">Register</button>
+        </mat-tab>
+      </mat-tab-group>
+    </form>
+  </mat-card>
 </div>
+

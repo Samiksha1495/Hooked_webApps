@@ -1,5 +1,9 @@
 .main-div mat-card{
   padding: 0px;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 65%;
 
 }
 
@@ -15,4 +19,39 @@
   
   .example-full-width {
     width: 100%;
+  }
+
+  .btnprop{
+    border-width: 1px;
+    border-color: aliceblue;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 90%;
+    left: 80%;
+  }
+
+  .search-box{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+
+  .navbar { 
+    font-family:cursive !important; 
+    font-size:larger;
+    font-style: italic;
+  }
+
+  .mat-button{
+    margin-top: 10px ;
+    width: 100%;
+    color: white;
+    height: 50px;
+    background-color: #3f5185;
+  }
+
+  .hooked-font{
+    font-weight: bold;
+    font-style: initial;
   }
